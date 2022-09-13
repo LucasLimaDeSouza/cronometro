@@ -12,7 +12,7 @@ let interval;
 iniciar.onclick = () => {
 
     clearInterval(interval)
-    interval = setInterval(startTimer, 100)
+    interval = setInterval(startTimer, 10)
 }
 parar.onclick = () => {
 
